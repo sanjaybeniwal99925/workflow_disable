@@ -1,0 +1,13 @@
+name: Workflow Disable
+
+on: 
+  push: 
+    branches: [ main ]
+
+jobs:
+  demo:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Dis
+        run: echo "This job is disable when push code in main branch"
